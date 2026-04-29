@@ -10,3 +10,9 @@ body {
 .header {
   font-size: 40px;
 }
+
+.Atagoboder {
+  border: 1px solid red;
+  margin: 10px;
+}
+
