@@ -239,6 +239,10 @@ export default function App() {
          </body>
 
 
+       <footer>
+        ©Lucker Store 2025-2026
+       </footer>
+
       
       </>
     </>
