@@ -2,3 +2,18 @@
     border: 1px solid red;
     margin: 10px;
   }
+  
+  .Atagoboder.M {
+    border: 1px solid orange;
+    margin: 10px;
+  }
+
+  .Atagoboder.C {
+    border: 1px solid Yellowgreen;
+    margin: 10px;
+  }
+
+  .Atagoboder.F {
+    border: 1px solid darkgreen;
+    margin: 10px;
+  }
