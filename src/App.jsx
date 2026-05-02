@@ -3,23 +3,21 @@ export default function App() {
     <>
       <>
         
-          <div id = "wrap">
-          <header>
-            <div className="title">
-            <h1> <img width = "150"src = "../IMG/Icon_Lucker.png"></img>Lucker Store</h1>
-            </div>
-            <ul className = "menu">
-              <button><li><a href = "#">Контакты</a></li></button>
-              <button><li><a href = "#">О нас</a></li></button>
-              <button><li><a href = "#">Услуги</a></li></button>
-            </ul>
-          </header>
-          </div>
+         
           
          <body>
+         <header id="header">
+        <div>
+            <img width="255" src="../IMG/Icone_LuckerV2.png" alt="Логотип"></img>
+        </div>
+        <div class="header_content">
+           
+        </div>
+    </header>
          <div className="catolog">
         <h2>Каталог Товаров</h2>
-       <div className="container">
+        <div class="image-container">
+        <div className="container">
         <div className="row">
           <div className="col-md-4">
             <div className="product">
@@ -29,13 +27,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Футболка Kaga из Kancolle</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">1500<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -55,13 +46,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Фигурка Kaga из Kancolle</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">50545<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -82,13 +66,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Фигурка Shigure из Kancolle</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">15000<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -108,13 +85,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Подарочный набор Team Fortress 2</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">915<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -135,13 +105,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Кружка Джайро из Stell Ball Run</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">800<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -162,13 +125,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Фигурка Ремилии из Touhou Project</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">800<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -188,13 +144,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Кепка Эллиса из Left 4 Dead 2</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">917<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -215,13 +164,6 @@ export default function App() {
 
               <div className="info">
                 <h3>Футболка Эллиса из Left 4 Dead 2</h3>
-                 <ul className="rating">
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                  <li>⭐</li>
-                 </ul>
                 <div>
                   <span className="price">917<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
@@ -236,12 +178,34 @@ export default function App() {
 
       </div>
        </div>
+        </div>
+       
          </body>
 
 
-       <footer>
-        ©Lucker Store 2025-2026
-       </footer>
+         <footer className="footer-simple">
+        <div className="footer-content">
+            <div className="footer-left">
+                <div>Телефон: +7 (XXX) XXX-XX-XX</div>
+            </div>
+            
+            <div className="footer-center">
+                <div className="footer-logo">REG</div>
+                <div className="footer-copyright">
+                    © 2025-2026 "Lucker Shop"
+                    Все права защищены
+                </div>
+            </div>
+            
+            <div className="footer-right">
+                <div>О нас | Контакты</div>
+                <div className="footer-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
       
       </>
