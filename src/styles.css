@@ -56,7 +56,7 @@ body {
 
 .product {
   margin-bottom: 30px;
-  display: flex;
+  display: grid;
 }
 
 

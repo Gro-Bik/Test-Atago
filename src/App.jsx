@@ -165,7 +165,7 @@ export default function App() {
               <div className="info">
                 <h3>Футболка Эллиса из Left 4 Dead 2</h3>
                 <div>
-                  <span className="price">917<small>₽</small></span>
+                  <span className="price">1450<small>₽</small></span>
                   <button className="add-to-cart">Купить</button>
                 </div>
               </div>
@@ -193,7 +193,7 @@ export default function App() {
                 <div className="footer-logo">REG</div>
                 <div className="footer-copyright">
                     © 2025-2026 "Lucker Shop"
-                    Все права защищены
+                    "Все права защищены"
                 </div>
             </div>
             
